@@ -6,7 +6,8 @@ Example P4 experiment on Fabric Testbed
 1. 
 ```import json
 import traceback
-from fabrictestbed_extensions.fablib.fablib import fablib```
+from fabrictestbed_extensions.fablib.fablib import fablib 
+```
 
 2.  
 
