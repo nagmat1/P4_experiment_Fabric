@@ -12,8 +12,7 @@ from fabrictestbed_extensions.fablib.fablib import fablib
 
 2.  
 
-```
-from ipaddress import ip_address, IPv4Address, IPv6Address, IPv4Network, IPv6Network
+``` from ipaddress import ip_address, IPv4Address, IPv6Address, IPv4Network, IPv6Network
 
 # Slice 
 slice_name = 'Nagm_P4Test'
