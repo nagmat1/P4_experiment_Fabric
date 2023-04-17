@@ -3,11 +3,9 @@ Example P4 experiment on Fabric Testbed
 
 # P4Lang Tutorials of FABRIC, Basic FABRIC Slice Configuration
 
-1. ```
-import json
+1. ```import json
 import traceback
 from fabrictestbed_extensions.fablib.fablib import fablib
-
 ```
 
 2.  
