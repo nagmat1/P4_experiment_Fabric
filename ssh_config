@@ -1,0 +1,17 @@
+SSH Config file should be as follows: 
+
+```
+UserKnownHostsFile /dev/null
+StrictHostKeyChecking no
+ServerAliveInterval 120 
+
+Host bastion-?.fabric-testbed.net
+     User nagmat_0051461802
+     ForwardAgent yes
+     Hostname %h
+     IdentityFile ~/.ssh/Nagmat1_bastion 
+     IdentitiesOnly yes
+
+Host * !bastion-?.fabric-testbed.net
+     ProxyJump nagmat_0051461802@bastion-1.fabric-testbed.net:22
+```
