@@ -5,6 +5,10 @@ If you are encountering internet issues like :
 
 ```ping google.com```
 
+
+Change the structure of ``` vim /etc/resolv.conf ``` as shown below : 
+
+
 For IPV6 IPs /etc/resolv.conf should look like : 
 
 ```
