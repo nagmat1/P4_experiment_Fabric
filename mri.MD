@@ -31,5 +31,5 @@ RuntimeCmd:
 Send packets from host1 to host2 : 
 
 ```
-sudo python3 tutorials/exercises/mri/send_modified.py 10.10.2.2 "message100" 2
+sudo python3 tutorials/exercises/mri/send_modified.py 10.0.2.2 "message100" 2
 ```
