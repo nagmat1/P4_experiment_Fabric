@@ -12,7 +12,7 @@ CONTAINER ID   IMAGE                                                 COMMAND   C
 
 To start bash inside docker : 
 ```
-sudo docker exec -it 8c39cc0eb450 bash
+sudo docker exec -it 954e3b3fcf64 bash
 ```
 
 To switch to control plane of bmv2 switch : 
