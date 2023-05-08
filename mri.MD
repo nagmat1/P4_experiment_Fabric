@@ -20,6 +20,13 @@ To switch to control plane of bmv2 switch :
 ```
 ./tools/behavioral-model/tools/runtime_CLI.py
 ```
+The result : 
+```
+Obtaining JSON from switch...
+Done
+Control utility for runtime P4 table manipulation
+RuntimeCmd: 
+```
 
 Send packets from host1 to host2 : 
 
