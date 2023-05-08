@@ -4,6 +4,11 @@ To search for dockers :
 ```
 sudo docker ps 
 ```
+The results : 
+```
+CONTAINER ID   IMAGE                                                 COMMAND   CREATED          STATUS          PORTS     NAMES
+954e3b3fcf64   registry.ipv6.docker.com/pruth/fabric-images:0.0.2j   "bash"    25 minutes ago   Up 25 minutes             fabric_p4
+```
 
 To start bash inside docker : 
 ```
