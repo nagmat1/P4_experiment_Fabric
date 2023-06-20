@@ -33,3 +33,25 @@ Send packets from host1 to host2 :
 ```
 sudo python3 tutorials/exercises/mri/send_modified.py 10.0.2.2 "message100" 2
 ```
+
+# Solution : 
+
+I killed the existing simple_switch process: 
+
+```
+root@fc770b13bdc1:~/tutorials/exercises/pl_basic# ps aux | grep simple_switch 
+root        1200  0.0  0.0   3304   664 pts/5    S+   18:40   0:00 grep --color=auto simple_switch
+```
+
+Then compiled the program again : 
+
+```
+root@fc770b13bdc1:~/tutorials/exercises/pl_basic# p4c --p4runtime-files basic.txt --target bmv2 --arch v1model arp_pl.p4
+```
+
+Then reloaded the simple_switch again : 
+
+```
+root@fc770b13bdc1:~/tutorials/exercises/pl_basic# sudo simple_switch --log-console --interface 1@ens7 --interface 2@ens8 --interface 3@ens9 /root/tutorials/exercises/pl_basic/arp_pl.json 
+```
+
