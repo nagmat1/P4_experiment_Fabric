@@ -12,3 +12,6 @@ After “sudo usermod -G docker rocky” and tuning the parameters for both host
 
 <img width="1411" alt="Screenshot 2023-08-30 at 1 47 36 PM" src="https://github.com/nagmat1/P4_experiment_Fabric/assets/51871069/c55acab2-c7ab-4aa3-979b-790323a37572">
 
+As shown below we could achieve up to **30 Gbits/s** speed. 
+
+<img width="1345" alt="Screenshot 2023-08-30 at 1 53 25 PM" src="https://github.com/nagmat1/P4_experiment_Fabric/assets/51871069/30e6e22b-98d2-4433-961e-a42d5815a9b2">
