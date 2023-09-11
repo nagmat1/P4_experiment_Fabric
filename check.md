@@ -19,3 +19,16 @@ ubuntu     13821  0.0  0.0   8164   720 pts/0    S+   17:24   0:00 grep --color=
 sudo docker exec -it fabric_p4 bash
 ```
 
+Create your p4 file. 
+
+Then compile it : 
+
+```
+p4c --p4runtime-files basic.txt --target bmv2 --arch v1model arp_pl.p4
+```
+
+Then run it : 
+
+```
+simple_switch --log-console --interface 1@ens7 --interface 2@ens8 --interface 3@ens9 arp_pl.json
+```
